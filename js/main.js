@@ -217,6 +217,118 @@ console.log(todoCompleted);
 const todoCompleted=todos.filter(function(todo){
     return todo.isCompleted===true;
 }).map(function(todo){
-    return todo.text
+    return todo.text;
 });
 console.log(todoCompleted); */
+
+
+
+/* const x='10';
+
+if(x==10){
+    console.log("x is 10");
+}
+
+if(x===10){
+    console.log("x is 10");
+}
+
+if(x==='10'){
+    console.log("x is '10'");
+}
+ */
+
+
+/* const x=20
+
+if(x===10){
+    console.log("x is 10");
+}else{
+    console.log("x is NOT 10");
+}
+
+if(x===10){
+    console.log("x is 10");
+}else if (x>10){
+    console.log("x is greater than 10");
+}else{
+    console.log("x is less than 10");
+} */
+
+
+/* const x=5;
+const y=10;
+
+if(x>5 || y>10){
+    console.log("x is more than 5 or y is more than 10");
+}
+
+if(x>4 || y>10){
+    console.log("x is more than 4 or y is more than 10");
+}
+
+if(x>5 || y>9){
+    console.log("x is more than 5 or y is more than 9");
+}
+
+if(x>5 && y>10){
+    console.log("x is more than 5 and y is more than 10");
+}
+
+if(x>4 && y>10){
+    console.log("x is more than 4 and y is more than 10");
+}
+
+if(x>5 && y>9){
+    console.log("x is more than 5 and y is more than 9");
+}
+
+if(x>4 && y>9){
+    console.log("x is more than 4 and y is more than 9");
+} */
+
+
+
+/* const x=11;
+const color= x>10 ? "red" : "blue";
+// ?=if   :=else
+
+console.log(color);
+
+switch(color){
+    case "red":
+        console.log("color is red");
+        break;
+    case "blue":
+        console.log("color is blue");
+        break;
+    default:
+        console.log("color is NOT red or blue");
+        break;
+} */
+
+
+
+/* function addNums(num1, num2){
+    console.log(num1 + num2);
+}
+addNums(5,4);
+addNums(); */
+
+/* function addNums(num1=1, num2=1){
+    console.log(num1 + num2);
+}
+addNums(5,4);
+addNums(); */
+
+/* function addNums(num1=1, num2=1){
+    return num1 + num2;
+}
+console.log(addNums(5,4));
+console.log(addNums()); */
+
+function addNums=(num1, num2)=>{
+    console.log(num1 + num2);
+}
+addNums(5,4);
+addNums();
