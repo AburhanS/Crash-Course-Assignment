@@ -1,6 +1,4 @@
 
-
-
 /* //alert("Hello World");
 console.log("Hello World");
 console.error("This is an error");
@@ -68,24 +66,6 @@ console.log(fruits);
 console.log(fruits[1]);
 console.log(Array.isArray (fruits));
 console.log(fruits.indexOf("oranges"));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 const data=[1, "apples", true];
 console.log(data); */
