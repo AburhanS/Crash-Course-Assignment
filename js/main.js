@@ -5,6 +5,7 @@ console.error("This is an error");
 console.warn("This is a warning"); */
 
 
+
 /* //var, let, const
 
 let age=30;
@@ -14,6 +15,7 @@ console.log(age);
 const age=30;
 age=31;
 console.log(age); */
+
 
 
 /* //String, Numbers, Boolean, null, undefined
@@ -26,6 +28,7 @@ const x=null;
 const y=undefined;
 let z;
 console.log(typeof z); */
+
 
 
 /* //Concatenation
@@ -41,6 +44,7 @@ const hello=`My name is ${name} and I am ${age}`;
 console.log(hello); */
 
 
+
 /* const s="Hello World!";
 console.log(s.length);
 console.log(s.toUpperCase());
@@ -50,6 +54,7 @@ console.log(s.split(""));
 
 const s="technology, computers, it, code";
 console.log(s.split(", ")); */
+
 
 
 /* //Arrays - variables that hold multiple values
@@ -71,7 +76,8 @@ const data=[1, "apples", true];
 console.log(data); */
 
 
-const person={
+
+/* const person={
     firstName: "John",
     lastName: "Doe",
     age:30,
@@ -95,6 +101,122 @@ const {firstName, lastName, address:{city}} =person;
 console.log(city);
 
 person.email="john@gmail.com";
-console.log(person);
+console.log(person); */
 
 
+
+/* const todos=[
+    {
+        id:1,
+        text:"Take out trash",
+        isCompleted: true
+    },
+    {
+        id:2,
+        text:"Meeting with boss",
+        isCompleted: true
+    },
+    {
+        id:3,
+        text:"Dentist appointment",
+        isCompleted: false
+    }
+];
+
+console.log(todos);
+console.log(todos[1].text);
+
+const todoJSON=JSON.stringify(todos);
+console.log(todoJSON); */
+
+
+
+/* // For
+
+for(let i=0; i<10; i++){
+    console.log(i);
+    console.log(`For Loop Number ${i}`)
+}
+
+
+// While
+
+let i=0;
+while(i<10){
+    console.log(`While Loop Number ${i}`);
+    i++
+} */
+
+
+
+/* const todos=[
+    {
+        id:1,
+        text:"Take out trash",
+        isCompleted: true
+    },
+    {
+        id:2,
+        text:"Meeting with boss",
+        isCompleted: true
+    },
+    {
+        id:3,
+        text:"Dentist appointment",
+        isCompleted: false
+    }
+];
+
+for(let i=0; i<todos.length; i++){
+    console.log(i);
+    console.log(todos[i].text)
+}
+for(let todo of todos){
+    console.log(todo);
+    console.log(todo.text);
+    console.log(todo.id);
+} */
+
+
+/* 
+// forEach, map, filter
+
+const todos=[
+    {
+        id:1,
+        text:"Take out trash",
+        isCompleted: true
+    },
+    {
+        id:2,
+        text:"Meeting with boss",
+        isCompleted: true
+    },
+    {
+        id:3,
+        text:"Dentist appointment",
+        isCompleted: false
+    }
+];
+
+todos.forEach(function(todo){
+    console.log(todo.text);
+});
+
+const todoText=todos.map(function(todo){
+    return todo.text;
+});
+console.log(todoText);
+
+const todoCompleted=todos.filter(function(todo){
+    return todo.isCompleted===true;
+});
+console.log(todoCompleted);
+
+
+const todoCompleted=todos.filter(function(todo){
+    return todo.isCompleted===true;
+}).map(function(todo){
+    return todo.text
+});
+console.log(todoCompleted); */
