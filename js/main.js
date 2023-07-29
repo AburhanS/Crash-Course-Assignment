@@ -327,8 +327,96 @@ addNums(); */
 console.log(addNums(5,4));
 console.log(addNums()); */
 
-function addNums=(num1, num2)=>{
-    console.log(num1 + num2);
+/* const addNums=(num1=1, num2=1)=>num1 + num2;
+console.log(
+    addNums(5,4),
+    addNums()
+); */
+
+/* const addNums=num1=>num1+5
+console.log(addNums(5)); */
+
+/* const todos=[
+    {
+        id:1,
+        text:"Take out trash",
+        isCompleted: true
+    },
+    {
+        id:2,
+        text:"Meeting with boss",
+        isCompleted: true
+    },
+    {
+        id:3,
+        text:"Dentist appointment",
+        isCompleted: false
+    }
+];
+
+todos.forEach((todo)=>console.log(todo.text)); */
+
+
+
+/* // Constructor
+
+function Person(firstName, lastName, dob){
+    this.firstName=firstName;
+    this.lastName=lastName;
+    this.dob= new Date(dob);
+    /* this.getBirthYear= function() {
+        return this.dob.getFullYear();
+    }
+    this.getFullName= function() {
+        return `${this.firstName} ${this.lastName}`;
+    } *//*
 }
-addNums(5,4);
-addNums();
+
+Person.prototype.getBirthYear=function(){
+    return this.dob.getFullYear();
+}
+Person.prototype.getFullName=function(){
+    return `${this.firstName} ${this.lastName}`;
+} */
+
+
+/* // Class
+
+class Person{
+    constructor(firstName, lastName, dob){
+        this.firstName=firstName;
+        this.lastName=lastName;
+        this.dob= new Date(dob);
+    }
+
+    getBirthYear=function(){
+        return this.dob.getFullYear();
+    }
+
+    getFullName=function(){
+    return `${this.firstName} ${this.lastName}`;
+}
+} */
+
+
+/* // Instantiate object
+
+const person1= new Person("John", "Doe", "4-3-1980");
+console.log(person1);
+const person2= new Person("Mary", "Smith", "3-6-1970");
+console.log(person2.firstName);
+console.log(person2.dob);
+console.log(person2.dob.getFullYear());
+console.log(person1.getBirthYear());
+console.log(person1.getFullName()); */
+
+
+
+// Selectors
+
+// Single element
+
+
+
+
+// Multiple element
